@@ -1,0 +1,50 @@
+# Arquivos compilados
+*.class
+
+# Diretórios e arquivos de build Maven
+/target/
+
+# Logs
+*.log
+
+# Arquivos temporários do sistema
+*.tmp
+*.temp
+*.swp
+*.swo
+*.DS_Store
+
+# Eclipse
+/.classpath
+/.project
+/.settings/
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+/out/
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Arquivos do sistema operacional Windows e macOS
+Thumbs.db
+desktop.ini
+
+# Configurações locais e arquivos de ambiente
+*.env
+*.local
+
+# Artefatos comuns que não precisam ir para o Git
+*.jar
+*.war
+*.ear
+
+# Diretórios do Gradle (caso use)
+/.gradle/
+build/
